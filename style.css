@@ -20,34 +20,34 @@ body {
 }
 
 .snake {
-  background-color: #08242C; /* From blanktheory.com.au */
+  background-image: url('graphics/body.png');
+  background-size: cover;
 }
 
 .food {
-  background-image: url('graphics/food_sprite.png'); /* Replace with actual sprite */
+  background-image: url('graphics/food.png'); /* Replace with actual sprite */
   background-size: cover;
 }
 
 .food.homepage {
-  background-image: url('graphics/homepage_sprite.png');
+  background-image: url('graphics/homepage.png');
   background-size: cover;
 }
 
 .food.services {
-  background-image: url('graphics/services_sprite.png');
+  background-image: url('graphics/working link.png');
   background-size: cover;
 }
 
 .food.blog {
-  background-image: url('graphics/blog_sprite.png');
+  background-image: url('graphics/blog.png');
   background-size: cover;
 }
 
 .food.enemy {
-  background-color: black;
-  border-radius: 50%;
-  background-image: url('graphics/enemy_sprite.png');
+  background-image: url('graphics/enemy.png');
   background-size: cover;
+  border-radius: 50%;
 }
 
 a {
