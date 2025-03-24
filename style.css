@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif, Arial, sans-serif; /* TODO: Replace with Blank Theory font */
+  background-color: #07232B; /* From blanktheory.com.au */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+
+#game-board {
+  background-color: #F0F2F2; /* From blanktheory.com.au */
+  display: grid;
+  grid-template-columns: repeat(30, 20px); /* Increased game size */
+  grid-template-rows: repeat(30, 20px); /* Increased game size */
+  border: 5px solid #FF304D; /* From blanktheory.com.au */
+}
+
+.snake {
+  background-color: #08242C; /* From blanktheory.com.au */
+}
+
+.food {
+  background-color: #FF304D; /* From blanktheory.com.au */
+  /* TODO: Replace with digital marketing related sprite */
+  background-size: cover;
+}
+
+.food.homepage {
+  background-image: url('homepage_sprite.png'); /* Replace with actual sprite */
+  background-size: cover;
+}
+
+.food.services {
+  background-image: url('services_sprite.png'); /* Replace with actual sprite */
+  background-size: cover;
+}
+
+.food.blog {
+  background-image: url('blog_sprite.png'); /* Replace with actual sprite */
+  background-size: cover;
+}
+
+.food.enemy {
+  background-color: black;
+  border-radius: 50%;
+  background-image: url('enemy_sprite.png'); /* Replace with actual sprite */
+  background-size: cover;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
