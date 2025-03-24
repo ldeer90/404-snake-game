@@ -47,18 +47,11 @@ function updateSnake() {
 }
 
 function drawSnake(board) {
-  snake.forEach((segment, index) => {
+  snake.forEach((segment) => {
     const snakeElement = document.createElement('div');
     snakeElement.style.gridRowStart = segment.y;
     snakeElement.style.gridColumnStart = segment.x;
     snakeElement.classList.add('snake');
-    if (index === 0) {
-      snakeElement.style.backgroundImage = "url('graphics/head.png')";
-      snakeElement.style.backgroundSize = "cover";
-    } else if (index === snake.length - 1) {
-      snakeElement.style.backgroundImage = "url('graphics/tail.png')";
-      snakeElement.style.backgroundSize = "cover";
-    }
     board.appendChild(snakeElement);
   });
 }
