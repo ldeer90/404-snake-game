@@ -24,30 +24,29 @@ body {
 }
 
 .food {
-  background-color: #FF304D; /* From blanktheory.com.au */
-  /* TODO: Replace with digital marketing related sprite */
+  background-image: url('graphics/food_sprite.png'); /* Replace with actual sprite */
   background-size: cover;
 }
 
 .food.homepage {
-  background-image: url('homepage_sprite.png'); /* Replace with actual sprite */
+  background-image: url('graphics/homepage_sprite.png');
   background-size: cover;
 }
 
 .food.services {
-  background-image: url('services_sprite.png'); /* Replace with actual sprite */
+  background-image: url('graphics/services_sprite.png');
   background-size: cover;
 }
 
 .food.blog {
-  background-image: url('blog_sprite.png'); /* Replace with actual sprite */
+  background-image: url('graphics/blog_sprite.png');
   background-size: cover;
 }
 
 .food.enemy {
   background-color: black;
   border-radius: 50%;
-  background-image: url('enemy_sprite.png'); /* Replace with actual sprite */
+  background-image: url('graphics/enemy_sprite.png');
   background-size: cover;
 }
 
